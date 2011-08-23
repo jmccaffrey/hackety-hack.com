@@ -1,6 +1,6 @@
 rvm:
   - ruby-1.9.2-p0
   - ruby-1.9.2-p290
-script: "bundle exec rake spec:unit spec:acceptance features"
+script: "bundle exec rake spec spec:acceptance features"
 gemfile:
   - Gemfile
