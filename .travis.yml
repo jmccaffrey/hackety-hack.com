@@ -1,6 +1,6 @@
 rvm:
-  - ruby-1.9.2-p0
-  - ruby-1.9.2-p290
+  - 1.9.2
+  - ree
 script: "bundle exec rake spec spec:acceptance"
 gemfile:
   - Gemfile
