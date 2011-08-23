@@ -1,4 +1,4 @@
 rvm:
   - 1.9.2
   - ree
-script: "bundle exec rake spec spec:acceptance"
+script: "bundle exec rake"

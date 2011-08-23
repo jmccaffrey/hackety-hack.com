@@ -59,4 +59,5 @@ namespace :spec do
 
 end
 
-task :default => [:spec, 'spec:acceptance']
+
+task :default => :spec
