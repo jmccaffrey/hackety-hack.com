@@ -7,13 +7,13 @@ source "http://rubygems.org"
 
 #see more at http://gembundler.com/
 
-gem "sinatra", "~>1.1"
+gem "sinatra" , "~> 1.3.0.c" #'~>1.1'
 gem "haml", "~>3.0.18"
 gem "mongo_mapper", "~>0.8.4"
 gem "rack-flash", "~>0.1.1"
 gem "rdiscount", "~>1.6.5"
 gem "i18n", "~>0.4.1"
-gem "bson_ext", "~>1.1.5"
+gem "bson_ext", "~>1.3.1"
 gem "pony", "~>1.0.1"
 gem "sinatra-content-for"
 gem "exceptional"

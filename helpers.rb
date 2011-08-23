@@ -74,6 +74,12 @@ helpers do
     "http://www.gravatar.com/avatar/#{Digest::MD5.hexdigest(email.downcase)}"
   end
 
+
+  # create links with mod time on the end, to allow a cached filename to be changed
+  def versioned_asset(file)
+    "#{file}?" + File.mtime(File.join(Sinatra::Application.public, file)).to_i.to_s
+  end
+
 end
 
 # This handy helper method lets us require an entire directory of `rb` files.
