@@ -54,7 +54,9 @@ namespace :spec do
   desc "Run the code examples in spec/acceptance"
   RSpec::Core::RakeTask.new(:acceptance) do |t|
     t.pattern = "spec/acceptance/**/*_spec.rb"
-    t.rspec_opts = "-r spec/spec_helper.rb"
+    t.rspec_opts = "-r ./spec/spec_helper.rb"
   end
 
 end
+
+task :default => [:spec, 'spec:acceptance']
