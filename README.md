@@ -1,4 +1,5 @@
-# Hackety-Hack.com
+# Hackety-Hack.com [![Build Status](https://secure.travis-ci.org/jmccaffrey/hackety-hack.com.png)](http://travis-ci.org/jmccaffrey/hackety-hack.com)
+
 
 This is the code for the website component of [Hackety Hack](http://hackety-hack.com). I'd explain more here, but it's better to just check out our generated documentation, which can get you started with running your own version of the site. You can find it [here](http://hacketyhack.github.com/hackety-hack.com/hackety.html) on the web, or on the `gh-pages` branch in this repository.
 
